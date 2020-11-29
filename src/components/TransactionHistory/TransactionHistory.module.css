@@ -1,0 +1,31 @@
+.transaction {
+  /* width: 800px; */
+  margin: 0 auto;
+  text-align: center;
+  background-color: #ffffff;
+  border: 1px solid #c8c3c3;
+  border-collapse: collapse;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.55);
+}
+
+.head {
+  width: 250px;
+  border: 1px solid #c8c3c3;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #84cef6;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+.data {
+  width: 250px;
+  border: 1px solid #c8c3c3;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: #84847b;
+}
+
+.item:nth-child(2n) {
+  background-color: #f1e3d9;
+}

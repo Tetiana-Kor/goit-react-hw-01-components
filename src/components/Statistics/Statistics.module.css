@@ -1,0 +1,36 @@
+.statistics {
+  width: 350px;
+  margin: 0 auto 50px;
+  background-color: white;
+  border-radius: 3px;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.55);
+}
+
+.title {
+  margin: 0;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 30px 20px;
+}
+
+.list {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 0;
+  padding: 0;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 70px;
+  list-style: none;
+  padding: 15px 20px;
+  color: #ffffff;
+}
+
+.label {
+  margin-bottom: 5px;
+  font-size: 12px;
+}
